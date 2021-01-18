@@ -17,7 +17,7 @@ export default function FullBlock({
           {title}
         </h2>
         <h3 className="text-2xl font-light">{subtitle}</h3>
-        <h3 className="max-w-4xl mx-auto font-light sm:text-xl">{text}</h3>
+        <h3 className="max-w-3xl mx-auto font-light sm:text-xl">{text}</h3>
         <Link href={ctaHref}>
           <Button
             className="self-center"
@@ -37,11 +37,11 @@ export function FullBlockWhite({ icon, title, subtitle, text, buttons }) {
     <div className="flex flex-col px-8 py-16 space-y-12 text-center bg-white">
       <div className="container flex flex-col mx-auto space-y-8">
         {icon}
-        <h2 className="max-w-3xl mx-auto text-3xl font-bold sm:text-5xl">
+        <h2 className="max-w-3xl mx-auto text-3xl font-bold sm:text-4xl">
           {title}
         </h2>
         <h3 className="text-2xl font-light">{subtitle}</h3>
-        <h3 className="max-w-4xl mx-auto font-light text-gray-700 sm:text-xl">
+        <h3 className="max-w-3xl mx-auto font-light text-gray-700 sm:text-xl">
           {text}
         </h3>
         <div className="flex self-center space-x-4 sm:space-x-8">{buttons}</div>

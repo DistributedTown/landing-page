@@ -175,9 +175,7 @@ export default function Landing() {
         <FullBlock
           title={
             <>
-              From a system based on <strong>Money</strong>
-              <br />
-              to a system based on
+              From a system based on <strong>Money</strong> to a system based on
               <strong> Value</strong>.
             </>
           }

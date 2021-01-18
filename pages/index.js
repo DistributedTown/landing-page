@@ -150,7 +150,7 @@ export default function Landing() {
         <title>Welcome to Distributed Town</title>
       </Head>
       <HamburgerMenu links={topNavLinks} />
-      <div className="flex flex-col w-full space-y-8 md:space-y-16">
+      <div className="flex flex-col w-full space-y-8 md:space-y-20">
         <div className="flex flex-col">
           <Header links={topNavLinks} />
           <HeroSection
@@ -188,6 +188,12 @@ The DITO Credits are a non-speculative currency that citizens can use to exchang
           ctaHref={docsUrl}
         />
         <div className="flex flex-col sm:space-y-12">
+          <div className="container mx-auto">
+            <h2 className="text-3xl text-center">
+              Customizable Community templates, to make it{' '}
+              <strong>personal</strong>.
+            </h2>
+          </div>
           <PictureBlock {...categories[0]} />
           <PictureBlock {...categories[1]} flip filled />
           <PictureBlock {...categories[2]} />

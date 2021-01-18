@@ -19,7 +19,7 @@ export default function PictureBlock({
           } sm:w-1/2`}
           src={imageSrc}
         />
-        <div className="flex flex-col items-center justify-center p-8 space-y-4 text-center sm:w-1/2">
+        <div className="flex flex-col items-center justify-center p-4 space-y-4 text-center sm:w-1/2">
           {icon}
           <h2 className="text-2xl">{title}</h2>
           <p className="text-xl text-gray-600">{subtitle}</p>

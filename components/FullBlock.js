@@ -41,7 +41,10 @@ export function FullBlockWhite({ icon, title, subtitle, text, buttons }) {
           {title}
         </h2>
         <h3 className="text-2xl font-light">{subtitle}</h3>
-        <h3 className="max-w-3xl mx-auto font-light text-gray-700 sm:text-xl">
+        <h3
+          className="max-w-3xl mx-auto font-light text-gray-700 sm:text-xl"
+          style={{ maxWidth: '38rem' }}
+        >
           {text}
         </h3>
         <div className="flex self-center space-x-4 sm:space-x-8">{buttons}</div>
